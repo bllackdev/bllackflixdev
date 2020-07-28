@@ -14,13 +14,13 @@ function App() {
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
         videoDescription={
-          'O que é Front-end? Trabalhando na área os termos HTML, CSS e JavaScript fazem parte da rotina das desenvolvedoras e desenvolvedores. Mas o que eles fazem, afinal? Descubra com a Vanessa!'
+          'O bom, velho e onipresente Java! É fácil de aprender? Como é programar em Java? Roberta e Paulo debatem sobre suas experiências com essa linguagem querida e famosa neste vídeo.'
         }
       />
 
       <Carousel ignoreFirstVideo category={dadosIniciais.categorias[0]} />
 
-      <Carousel category={dadosIniciais.categorias[0]} />
+      {/* <Carousel category={dadosIniciais.categorias[0]} /> */}
 
       <Carousel category={dadosIniciais.categorias[1]} />
 
