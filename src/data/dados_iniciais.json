@@ -1,101 +1,153 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
+      "titulo": "Programação",
       "link": "https://www.alura.com.br/formacao-front-end",
-      "cor": "#6BD1FF",
+      "cor": "#2200ff",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "",
+        "url": ""
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "O que é o Java?",
+          "url": "https://youtu.be/90NcVNsKGik"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Migrando de CLT para Freelancer! Como fazer a transição?",
+          "url": "https://www.youtube.com/watch?v=Pz6vISLC4aQ"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "Por onde começar ao CRIAR UM SITE?",
+          "url": "https://www.youtube.com/watch?v=Zft1cQ8kkIo"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Kubernetes",
+          "url": "https://www.youtube.com/watch?v=Md7aN6N9V_0"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "Introdução a programação Reativa - Pokedéx Reativo #1",
+          "url": "https://www.youtube.com/watch?v=7DbPSiA4ENg"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "IA com JAVA? Construindo um sistema de recomendação!",
+          "url": "https://www.youtube.com/watch?v=YWgbZKdbAZE"
         },
         {
           "titulo": "Novidades do Angular v9",
           "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        }        
-      ]
-    },
-    {
-      "titulo": "Back End",
-      "cor": "#00C86F",
-      "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
-      },
-      "videos": [
-        {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
-        },
-        {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
-        },
-        {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
-        },
-        {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
-        }, 
-        {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Guia DEFINITIVO de Aprendendo a Aprender | A maior BRONCA da sua vida [RATED R]",
+          "url": "https://www.youtube.com/watch?v=oUPaJxk6TZ0&t=14s"
         }
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
-      "cor": "#9cd33b",
+      "titulo": "Hacking",
+      "cor": "#babe3f",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
+        "text": "",
+        "url": ""
       },
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "Defesa em Aplicações Web - Hacker Security",
+          "url": "https://www.youtube.com/watch?v=TTunBs1QSWM"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "MELHORES PROGRAMAS PARA HACKING | EXCLUSIVOS 2019?",
+          "url": "https://www.youtube.com/watch?v=B_fk278li7k"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "Falha GRAVE da UOL permite invasão por um simples envio de E-MAIL ",
+          "url": "https://www.youtube.com/watch?v=Ud-Z3vrJKTk"
+        }
+      ]
+    },
+    {
+      "titulo": "Ciência",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      },
+      "videos": [
+        {
+          "titulo": "O Paradoxo de Bootstrap Explicado",
+          "url": "https://www.youtube.com/watch?v=4s28mk9qZXs"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "O que seu DNA diz sobre você?",
+          "url": "https://www.youtube.com/watch?v=WH4hqF7yCaQ"
+        },
+        {
+          "titulo": "TETRAQUARKS E PENTAQUARKS: O QUE SÃO e POR QUE TÃO RAROS? • Física e Afins",
+          "url": "https://www.youtube.com/watch?v=c-kShbofTks"
+        },
+        {
+          "titulo": "Te ensinaram Física errado a vida toda! Como aprender DE VERDADE (com o Caio Gomes)?",
+          "url": "https://www.youtube.com/watch?v=MpRQV0erHTI"
+        },
+        {
+          "titulo": "A Gripe Espanhola de 1918 | Nerdologia",
+          "url": "https://www.youtube.com/watch?v=_gm66nW1Jek"
+        }
+      ]
+    },
+    {
+      "titulo": "Sociedade",
+      "cor": "red",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      },
+      "videos": [
+        {
+          "titulo": "Depois da identidade: como costurar as pautas? - FEAT @Tempero Drag",
+          "url": "https://www.youtube.com/watch?v=RbxSuKQMD94&t=2s"
+        },
+        {
+          "titulo": "socialismo não da certo?",
+          "url": "https://www.youtube.com/watch?v=7qUWTrBGDYo"
+        },
+        {
+          "titulo": "GREG NEWS | INDÍGENAS",
+          "url": "https://youtu.be/ya1TgJ_5N0Q"
+        },
+        {
+          "titulo": "Mitos sobre público x privado | 070",
+          "url": "https://www.youtube.com/watch?v=7qLQKJX04yw"
+        },
+        {
+          "titulo": "IDEOLOGIA",
+          "url": "https://www.youtube.com/watch?v=cowTCfoegsI&t=38s"
+        }
+      ]
+    },
+    {
+      "titulo": "Séries",
+      "cor": "#b226d9",
+      "videos": [
+        {
+          "titulo": "Dark",
+          "url": "https://www.youtube.com/watch?v=JkUWmxhtU4E"
+        },
+        {
+          "titulo": "Mr. Robot",
+          "url": "https://www.youtube.com/watch?v=xIBiJ_SzJTA"
+        },
+        {
+          "titulo": "Black Mirror",
+          "url": "https://www.youtube.com/watch?v=V0XOApF5nLU"
+        },
+        {
+          "titulo": "The Boys",
+          "url": "https://www.youtube.com/watch?v=06rueu_fh30"
+        },
+        {
+          "titulo": "A Maldição da Residência Hill",
+          "url": "https://www.youtube.com/watch?v=ZxFkZ1P37FE"
         }
       ]
     },
@@ -104,50 +156,20 @@
       "cor": "orange",
       "videos": [
         {
+          "titulo": "Joker",
+          "url": "https://www.youtube.com/watch?v=t433PEQGErc"
+        },
+        {
           "titulo": "Interestellar",
           "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "O Poço",
+          "url": "https://www.youtube.com/watch?v=RlfooqeZcdY"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
-        },
-        {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
-        }
-      ]
-    },
-    {
-      "titulo": "Games",
-      "cor": "red",
-      "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
-      },
-      "videos": [
-        {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
-        },
-        {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
-        },
-        {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
-        },
-        {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
-        },
-        {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+          "titulo": "Vingadores: Ultimato",
+          "url": "https://www.youtube.com/watch?v=4QRdB4RAQMs"
         }
       ]
     },
