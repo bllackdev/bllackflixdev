@@ -1,7 +1,7 @@
 /* eslint-disable linebreak-style */
-/* eslint-disable react/no-array-index-key */
+
 /* eslint-disable linebreak-style */
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PagesDefault';
 import FormField from '../../../components/FormField';
@@ -26,12 +26,24 @@ function CadastroCategoria() {
   }
 
   function handleChange(infosDoEvento) {
-    const { getAttribute, value } = infosDoEvento.target;
     setValue(
-      getAttribute('name'),
-      value,
+      infosDoEvento.target.getAttribute('name'),
+      infosDoEvento.target.value,
     );
   }
+
+  useEffect(() => {
+    const URL_TOP = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : '';
+    fetch(URL_TOP)
+      .then(async (respostaDoServidor) => {
+        const resposta = await respostaDoServidor.json();
+        setCategorias([
+          ...resposta,
+        ]);
+      });
+  });
 
   return (
     <PageDefault>
@@ -53,7 +65,7 @@ function CadastroCategoria() {
       >
 
         <FormField
-          label="Nome da Categoria: "
+          label="Nome da Categoria "
           type="text"
           value={values.nome}
           name="nome"
@@ -61,7 +73,7 @@ function CadastroCategoria() {
         />
 
         <FormField
-          label="Descrição: "
+          label="Descrição "
           type="textarea"
           value={values.descricao}
           name="descricao"
@@ -69,25 +81,35 @@ function CadastroCategoria() {
         />
 
         <FormField
-          label="Cor: "
+          label="Cor "
           type="color"
           value={values.cor}
           name="cor"
           onChange={handleChange}
         />
 
-        <Button>Cadastrar</Button>
+        <Button>
+          Cadastrar
+        </Button>
       </form>
 
+      {categorias.length === 0 && (
+        <div>
+          Loading...
+        </div>
+      )}
+
       <ul>
-        {categorias.map((categoria, indice) => (
-          <li key={`${categoria}${indice}`}>
-            {categoria}
+        {categorias.map((categoria) => (
+          <li key={`${categoria.nome}`}>
+            {categoria.nome}
           </li>
         ))}
       </ul>
 
-      <Link to="/">Ir para Home</Link>
+      <Link to="/">
+        Ir para Home
+      </Link>
     </PageDefault>
   );
 }
